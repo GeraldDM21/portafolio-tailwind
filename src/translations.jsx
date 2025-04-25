@@ -1,0 +1,40 @@
+export const translations = {
+  en: {
+    home: 'Home',
+    about: 'About',
+    projects: 'Projects',
+    contact: 'Contact',
+    heroTitle: "HEY, I'M GERALD DELGADO",
+    heroSubtitle: 'Full Stack Developer building scalable and maintainable software solutions with a passion for delivering real-world impact through clean, efficient code.',
+    aboutTitle: 'Get to know me!',
+    aboutText: "I'm a Full Stack Developer with experience in creating real-world web applications. I'm passionate about scalable systems and delivering value through smart code.",
+    skillsTitle: 'My Skills',
+    projectsTitle: 'PROJECTS',
+    contactFormTitle: 'CONTACT',
+    contactFormText: 'Feel free to contact me by submitting the form below and I will get back to you as soon as possible.',
+    submitButton: 'Submit',
+    missionTitle: 'Mission',
+    missionText: 'Provide high-quality technological projects to clients, working collaboratively and constantly improving through continuous learning and overcoming challenges.',
+    visionTitle: 'Vision',
+    visionText: 'Contribute to the success of teams by delivering innovative and efficient technological solutions, while pursuing continuous professional growth.'
+  },
+  es: {
+    home: 'Inicio',
+    about: 'Acerca de mí',
+    projects: 'Proyectos',
+    contact: 'Contacto',
+    heroTitle: 'HOLA, SOY GERALD DELGADO',
+    heroSubtitle: 'Desarrollador Full Stack creando soluciones escalables y mantenibles con pasión por generar impacto real a través de código limpio y eficiente.',
+    aboutTitle: '¡Conóceme!',
+    aboutText: "Soy un Desarrollador Full Stack con experiencia en la creación de aplicaciones web del mundo real. Estoy apasionado por los sistemas escalables y por entregar valor a través de código inteligente.",
+    skillsTitle: 'Mis habilidades',
+    projectsTitle: 'PROYECTOS',
+    contactFormTitle: 'CONTACTO',
+    contactFormText: 'Siéntete libre de contactarme enviando el formulario abajo y me pondré en contacto contigo lo antes posible.',
+    submitButton: 'Enviar',
+    missionTitle: 'Misión',
+    missionText: 'Brindar proyectos tecnológicos de alta calidad a los clientes, trabajando de forma colaborativa y aprendiendo continuamente para superar obstáculos y alcanzar nuevas metas.',
+    visionTitle: 'Visión',
+    visionText: 'Contribuir al éxito de los equipos mediante la entrega de soluciones innovadoras y eficientes, fomentando el aprendizaje continuo y la mejora constante dentro de la empresa.'
+  }
+};

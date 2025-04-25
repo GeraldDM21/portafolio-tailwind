@@ -1,0 +1,55 @@
+/* header.css */
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    padding: 10px 0;
+  }
+  
+header img {
+    height: 50px; 
+    width: auto;
+  }
+  
+
+  .header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #4CAF50;
+  }
+  
+  .language-button {
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .language-button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  

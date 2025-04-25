@@ -1,0 +1,81 @@
+/* About Section */
+#about {
+  background-color: #f4f4f4;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Título de la sección */
+#about h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+/* Descripción del about */
+#about p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Contenedor de habilidades */
+#about .skills {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Estilo para cada habilidad */
+.skill {
+  background-color: #edf5ed;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect para las habilidades */
+.skill:hover {
+  background-color: #4595a0;
+}
+
+/* Títulos de habilidades */
+.skill-name {
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.cv-button-container {
+  position: relative;
+  height: 60px; /* asegura espacio para el botón */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 100px;
+  margin-top: -30px;
+}
+
+.cv-download-button {
+  background-color: #4595a0; /* morado oscuro */
+  color: white;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cv-download-button:hover {
+  background-color: #4595a0;
+  transform: scale(1.05);
+}

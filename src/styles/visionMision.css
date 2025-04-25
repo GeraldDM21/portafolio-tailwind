@@ -1,0 +1,32 @@
+.vision-mision-section {
+    background-color: #4595a0;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .vision-mision-card {
+    background-color: #f9f9fa;
+    color: #0c0c0c;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 1000px;
+    width: 100%;
+    box-shadow: 0 4px 10px #4595a0(0,0,0,0.3);
+  }
+  
+  .card-title {
+    font-size: 2rem;
+    color: #0c0c0c;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .card-text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    text-align: center;
+  }
+  

@@ -1,0 +1,13 @@
+.hero {
+  background: url('https://www.transparenttextures.com/patterns/diagonales-decalees.png'),
+              linear-gradient(135deg, #4595a0 0%, #1e293b 100%);
+  background-blend-mode: overlay;
+  background-size: auto;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 20px;
+}
